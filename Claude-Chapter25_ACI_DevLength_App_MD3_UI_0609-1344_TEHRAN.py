@@ -3362,8 +3362,8 @@ def svg_dynamic_ld_geometry(
 <marker id="arrowW"  markerWidth="7" markerHeight="7" refX="3.5" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 z" fill="#eaf3ff"/></marker>
 </defs>
 <rect x="6" y="6" width="968" height="488" rx="20" fill="#071727" stroke="#2a4764" stroke-width="1.2"/>
-<rect x="20" y="94" width="420" height="22" rx="6" fill="rgba(7,23,39,0.72)" stroke="none"/>
-<text x="34" y="110" fill="#c8d4f0" font-size="13" font-weight="700" opacity=".90">Longitudinal Beam Section</text><text x="742" y="110" fill="#34e36f" font-size="13" font-weight="700">LIVE UPDATE</text>
+<rect x="18" y="28" width="248" height="26" rx="7" fill="#071727" fill-opacity="0.92" stroke="#82aaff" stroke-width="0.8"/>
+<text x="30" y="46" fill="#e8eaff" font-size="15" font-weight="700">Longitudinal Beam Section</text><text x="742" y="42" fill="#34e36f" font-size="14" font-weight="700">LIVE UPDATE</text>
 <rect x="{beam_x}" y="{beam_y}" width="{beam_w}" height="{beam_h}" rx="8" fill="url(#concPat)" stroke="#14171c" stroke-width="2"/>
 <rect x="{cage_x}" y="{cage_y}" width="{cage_w}" height="{cage_h}" rx="6" fill="none" stroke="#eef6ff" stroke-width="1.0" opacity=".22"/>
 {ld_block}{ktr_block}{stirrups}{reinforcement_elevation()}{cb_block}{spacing_block}{cover_block}
